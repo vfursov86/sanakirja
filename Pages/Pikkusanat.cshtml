@@ -1,0 +1,27 @@
+﻿@page
+@model PikkusanatModel
+@{
+    ViewData["Title"] = "Pikkusanat";
+}
+<h1>@ViewData["Title"]</h1>
+<table class="table">
+    <tbody>
+        @foreach (KeyValuePair<string, string> kvp in Model.data)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Key)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Value)
+                </td>
+                @* <td>
+                    <a asp-page="./GetBook" asp-route-id="@item.BookId">Get Book</a> |
+                    <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
+                </td> *@
+            </tr>
+        }
+    </tbody>
+</table>
