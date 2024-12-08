@@ -54,3 +54,6 @@ D:\Code\sanakirja\obj\Debug\net8.0\refint\sanakirja.dll
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.pdb
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.genruntimeconfig.cache
 D:\Code\sanakirja\obj\Debug\net8.0\ref\sanakirja.dll
+D:\Code\sanakirja\bin\Debug\net8.0\sanakirja.staticwebassets.endpoints.json
+D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets\msbuild.sanakirja.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

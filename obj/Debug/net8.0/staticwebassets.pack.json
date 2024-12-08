@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css",
-      "PackagePath": "staticwebassets\\sanakirja.bundle.scp.css"
+      "PackagePath": "staticwebassets\\sanakirja.qnl1kw0rw4.bundle.scp.css"
     },
     {
       "Id": "D:\\Code\\sanakirja\\wwwroot\\css\\site.css",
@@ -259,6 +259,10 @@
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.sanakirja.props",
       "PackagePath": "buildTransitive\\sanakirja.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sanakirja.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sanakirja.Microsoft.AspNetCore.StaticWebAssets.props",
