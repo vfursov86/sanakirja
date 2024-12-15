@@ -1,3 +1,8 @@
+using datastore;
+
+// Initial data loading...
+DataStore.LoadData();
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

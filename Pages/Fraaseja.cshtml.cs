@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.Sqlite;
+using datastore;
 
 namespace sanakirja.Pages;
 
 public class FraasejaModel : PageModel
 {
 
+    // This is the refernce to fraasejaData in DataStore static class.
     public SortedDictionary<string, string> data;
     private readonly ILogger<FraasejaModel> _logger;
 
@@ -18,27 +19,6 @@ public class FraasejaModel : PageModel
 
     public void OnGet()
     {
-        using (var connection = new SqliteConnection("Data Source=sanakirjadata.db"))
-        {
-            connection.Open();
-
-            var command = connection.CreateCommand();
-            command.CommandText = @"
-                                    select id, finnish, russian
-                                    from fraaseja
-                                ";
-
-            using (var reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    var id = reader.GetString(0);
-                    var finn = reader.GetString(1);
-                    var rus = reader.GetString(2);
-
-                    data.Add(finn, rus);
-                }
-            }
-        }
+        data = DataStore.fraasejaData;
     }
 }

@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.Sqlite;
+using datastore;
 
 namespace sanakirja.Pages;
 
 public class PikkusanatModel : PageModel
 {
+    // This is the refernce to pikkusanatData in DataStore static class.
     public SortedDictionary<string, string> data;
     private readonly ILogger<PikkusanatModel> _logger;
 
@@ -17,28 +18,7 @@ public class PikkusanatModel : PageModel
 
     public void OnGet()
     {
-        using (var connection = new SqliteConnection("Data Source=sanakirjadata.db"))
-        {
-            connection.Open();
-
-            var command = connection.CreateCommand();
-            command.CommandText = @"
-                                    select id, finnish, russian
-                                    from pikkusanat
-                                ";
-
-            using (var reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    var id = reader.GetString(0);
-                    var finn = reader.GetString(1);
-                    var rus = reader.GetString(2);
-                    
-                    data.Add(finn, rus);
-                }
-            }
-        }
+        data = DataStore.pikkusanatData;
     }
 }
 

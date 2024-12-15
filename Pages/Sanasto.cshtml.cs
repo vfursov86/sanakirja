@@ -1,12 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Data.Sqlite;
+using datastore;
 
 namespace sanakirja.Pages;
 
 public class SanastoModel : PageModel
 {
-    // Here will be stored words while runtime.
+    // This is the refernce to sanastoData in DataStore static class.
     public SortedDictionary<string, string> data;
     private readonly ILogger<SanastoModel> _logger;
 
@@ -18,28 +19,7 @@ public class SanastoModel : PageModel
 
     public void OnGet()
     {
-        using (var connection = new SqliteConnection("Data Source=sanakirjadata.db"))
-        {
-            connection.Open();
-
-            var command = connection.CreateCommand();
-            command.CommandText = @"
-                                    select id, finnish, russian
-                                    from finnruswords
-                                ";
-
-            using (var reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    var id = reader.GetString(0);
-                    var finn = reader.GetString(1);
-                    var rus = reader.GetString(2);
-                    
-                    data.Add(finn, rus);
-                }
-            }
-        }
+        data = DataStore.sanastoData;
     }
 }
 
