@@ -6,13 +6,20 @@
 <h1>@ViewData["Title"]</h1>
 
 <!-- items being paged -->
-<table class="table table-sm table-striped table-bordered">
-    @foreach (var item in Model.Items)
-    {
-        <tr>
-            <td>@item</td>
-        </tr>
-    }
+<table class="table">
+    <tbody>
+        @foreach (KeyValuePair<string, string> kvp in Model.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Key)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Value)
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
 
 <!-- pager -->
@@ -23,10 +30,10 @@
             @if (Model.Pager.CurrentPage > 1)
             {
                 <li class="page-item">
-                    <a class="page-link" href="/PagingTest">First</a>
+                    <a class="page-link" href="/PagingTest">Ensimmäinen</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.CurrentPage - 1)">Previous</a>
+                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.CurrentPage - 1)">Edellinen</a>
                 </li>
             }
 
@@ -40,10 +47,10 @@
             @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
             {
                 <li class="page-item">
-                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.CurrentPage + 1)">Next</a>
+                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.CurrentPage + 1)">Seuraava</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.TotalPages)">Last</a>
+                    <a class="page-link" href="/PagingTest?p=@(Model.Pager.TotalPages)">Viimeinen</a>
                 </li>
             }
         </ul>

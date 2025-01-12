@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using JW;
 using datastore;
 
@@ -13,28 +11,20 @@ public class PagingTestModel : PageModel
     private readonly ILogger<PagingTestModel> _logger;
     public Pager Pager { get; set; }
 
-    public IEnumerable<string> Items { get; set; }
+    public IEnumerable<KeyValuePair<string, string>> Items { get; set; }
 
     public PagingTestModel(ILogger<PagingTestModel> logger)
     {
-        data = new SortedDictionary<string , string>();
+        data = DataStore.pikkusanatData;
         _logger = logger;
     }
 
     public void OnGet(int p = 1)
     {
-        // generate list of sample items to be paged
-        var dummyItems = Enumerable.Range(1, 150).Select(x => "Item " + x);
-
-        // get pagination info for the current page
-        Pager = new Pager(dummyItems.Count(), p, 20, 6);
-
-            // assign the current page of items to the Items property
-        Items = dummyItems.Skip((Pager.CurrentPage - 1) * Pager.PageSize).Take(Pager.PageSize);
-
-        //data = DataStore.pikkusanatData;
-
-        
+        // Get pagination info for the current page. Yield 15 records and show 4 pages in submenu.
+        Pager = new Pager(data.Count(), p, 15, 4);
+        // Assign a current slice of data to Items to display.
+        Items = data.Skip((Pager.CurrentPage - 1) * Pager.PageSize).Take(Pager.PageSize);
     }
 }
 
