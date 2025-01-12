@@ -20,7 +20,7 @@ public class SanastoModel : PageModel
 
     public void OnGet(int p = 1)
     {
-        // Get pagination info for the current page. Yield 15 records and show 4 pages in the submenu.
+        // Get pagination info for the current page. Yield 15 records and show 4 pages in submenu.
         Pager = new Pager(data.Count(), p, 15, 4);
         // Assign a current slice of data to Items to display.
         Items = data.Skip((Pager.CurrentPage - 1) * Pager.PageSize).Take(Pager.PageSize);
