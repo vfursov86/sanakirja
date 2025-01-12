@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.10" />
+    <PackageReference Include="JW.Pager" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
