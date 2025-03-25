@@ -27,7 +27,6 @@ public static class DataStore
     {
         var command = connection.CreateCommand();
         command.CommandText = $@"select id, finnish, russian from {tableName}";
-
         using (var reader = command.ExecuteReader())
         {
             while (reader.Read())
