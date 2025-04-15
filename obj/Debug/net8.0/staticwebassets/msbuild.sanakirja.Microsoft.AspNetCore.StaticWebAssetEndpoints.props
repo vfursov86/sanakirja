@@ -733,16 +733,16 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 11 Nov 2024 15:43:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/sanakirja/sanakirja.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sanakirja.qnl1kw0rw4.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sanakirja.mkyrl8zbzr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 19:07:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OtPRa\u002BVHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2233"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OtPRa\u002BVHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 19:04:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/sanakirja/sanakirja.qnl1kw0rw4.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sanakirja.qnl1kw0rw4.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/sanakirja/sanakirja.mkyrl8zbzr.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sanakirja.mkyrl8zbzr.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qnl1kw0rw4"},{"Name":"integrity","Value":"sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="},{"Name":"label","Value":"_content/sanakirja/sanakirja.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 19:07:13 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mkyrl8zbzr"},{"Name":"integrity","Value":"sha256-OtPRa\u002BVHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="},{"Name":"label","Value":"_content/sanakirja/sanakirja.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2233"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OtPRa\u002BVHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 19:04:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

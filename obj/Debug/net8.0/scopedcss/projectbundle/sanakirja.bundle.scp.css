@@ -24,6 +24,36 @@ a[b-expolnpeoa] {
   border-color: #1861ac;
 }
 
+#sortOptions[b-expolnpeoa] {
+  background-color: #007bff; /* Blue background for closed menu */
+  color: white; /* White text for closed menu */
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 0.25rem; /* Rounded corners */
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none; /* Remove default browser styling */
+}
+
+/* Style all options with default white background and black text */
+#sortOptions option[b-expolnpeoa] {
+  background-color: white; /* Default background for non-hovered options */
+  color: black; /* Default text for non-hovered options */
+}
+
+/* Highlight hovered option */
+#sortOptions option:hover[b-expolnpeoa] {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Ensure selected option stays styled correctly in collapsed view */
+#sortOptions:focus-visible[b-expolnpeoa] {
+  background-color: #007bff; /* Blue background for closed menu */
+  color: white; /* White text for selected option */
+  outline: none; /* Remove default focus outline */
+}
+
 .border-top[b-expolnpeoa] {
   border-top: 1px solid #e5e5e5;
 }

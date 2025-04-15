@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CX6KHvmqlep9H4iW+C7XG+Nq7dDufnKRwC/JoXSukj4=",
+  "Hash": "jfjO9sWvqWqwYikj6/p3DpPPy2iWJqtAHnOQxERz1/Q=",
   "Source": "sanakirja",
   "BasePath": "_content/sanakirja",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "qnl1kw0rw4",
-      "Integrity": "GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=",
+      "Fingerprint": "mkyrl8zbzr",
+      "Integrity": "OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\sanakirja.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "qnl1kw0rw4",
-      "Integrity": "GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=",
+      "Fingerprint": "mkyrl8zbzr",
+      "Integrity": "OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css"
@@ -6354,7 +6354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "2233"
         },
         {
           "Name": "Content-Type",
@@ -6362,11 +6362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\""
+          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 19:07:13 GMT"
+          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6376,12 +6376,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="
+          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
         }
       ]
     },
     {
-      "Route": "sanakirja.qnl1kw0rw4.bundle.scp.css",
+      "Route": "sanakirja.mkyrl8zbzr.bundle.scp.css",
       "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6391,7 +6391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "2233"
         },
         {
           "Name": "Content-Type",
@@ -6399,11 +6399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\""
+          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 19:07:13 GMT"
+          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6413,7 +6413,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qnl1kw0rw4"
+          "Value": "mkyrl8zbzr"
         },
         {
           "Name": "label",
@@ -6421,12 +6421,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="
+          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
         }
       ]
     },
     {
-      "Route": "sanakirja.qnl1kw0rw4.styles.css",
+      "Route": "sanakirja.mkyrl8zbzr.styles.css",
       "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\sanakirja.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6436,7 +6436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "2233"
         },
         {
           "Name": "Content-Type",
@@ -6444,11 +6444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\""
+          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 19:07:13 GMT"
+          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6458,7 +6458,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qnl1kw0rw4"
+          "Value": "mkyrl8zbzr"
         },
         {
           "Name": "label",
@@ -6466,7 +6466,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="
+          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
         }
       ]
     },
@@ -6481,7 +6481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1127"
+          "Value": "2233"
         },
         {
           "Name": "Content-Type",
@@ -6489,11 +6489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc=\""
+          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 19:07:13 GMT"
+          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6503,7 +6503,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GgjZZ3sWdPrHhrbatSml0ovcd1PnpiNUp9svHjOMPXc="
+          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
         }
       ]
     }
