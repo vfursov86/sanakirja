@@ -30,27 +30,28 @@
             @if (Model.Pager.CurrentPage > 1)
             {
                 <li class="page-item">
-                    <a class="page-link" href="/Sanasto">Ensimmäinen</a>
+                    <a class="page-link" href="/Sanasto?sortOrder=@Request.Query["sortOrder"]&p=1">Ensimmäinen</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="/Sanasto?p=@(Model.Pager.CurrentPage - 1)">Edellinen</a>
+                    <a class="page-link"
+                        href="/Sanasto?sortOrder=@Request.Query["sortOrder"]&p=@(Model.Pager.CurrentPage - 1)">Edellinen</a>
                 </li>
             }
-
             @foreach (var p in Model.Pager.Pages)
             {
                 <li class="page-item @(p == Model.Pager.CurrentPage ? "active" : "")">
-                    <a class="page-link" href="/Sanasto?p=@p">@p</a>
+                    <a class="page-link" href="/Sanasto?sortOrder=@Request.Query["sortOrder"]&p=@p">@p</a>
                 </li>
             }
-
             @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
             {
                 <li class="page-item">
-                    <a class="page-link" href="/Sanasto?p=@(Model.Pager.CurrentPage + 1)">Seuraava</a>
+                    <a class="page-link"
+                        href="/Sanasto?sortOrder=@Request.Query["sortOrder"]&p=@(Model.Pager.CurrentPage + 1)">Seuraava</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="/Sanasto?p=@(Model.Pager.TotalPages)">Viimeinen</a>
+                    <a class="page-link"
+                        href="/Sanasto?sortOrder=@Request.Query["sortOrder"]&p=@(Model.Pager.TotalPages)">Viimeinen</a>
                 </li>
             }
         </ul>

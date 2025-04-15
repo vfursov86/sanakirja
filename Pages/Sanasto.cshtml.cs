@@ -14,17 +14,17 @@ public class SanastoModel : PageModel
 
     public SanastoModel(ILogger<SanastoModel> logger)
     {
-        data = DataStore.sanastoData;
         _logger = logger;
     }
 
-    public void OnGet(int p = 1)
+    public void OnGet(string sortOrder = "finnish", int p = 1)
     {
-        // Get pagination info for the current page. Yield 15 records and show 4 pages in  submenu.
+        // Select the correct dictionary based on sort order
+        var data = sortOrder == "finnish" ? DataStore.sanastoData : DataStore.sanastoDataRussianSorted;
+
+        // Get pagination info for the current page. Yield 15 records and show 4 pages in submenu.
         Pager = new Pager(data.Count(), p, 15, 4);
         // Assign a current slice of data to Items to display.
         Items = data.Skip((Pager.CurrentPage - 1) * Pager.PageSize).Take(Pager.PageSize);
     }
 }
-
-// create table finnruswords(id int primary key not null, finnish text not null, russian text not null);

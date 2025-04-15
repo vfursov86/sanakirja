@@ -14,12 +14,14 @@ public class PikkusanatModel : PageModel
 
     public PikkusanatModel(ILogger<PikkusanatModel> logger)
     {
-        data = DataStore.pikkusanatData;
         _logger = logger;
     }
 
-    public void OnGet(int p = 1)
+    public void OnGet(string sortOrder = "finnish", int p = 1)
     {
+        // Select the correct dictionary based on sort order
+        var data = sortOrder == "finnish" ? DataStore.pikkusanatData : DataStore.pikkusanatDataRussianSorted;
+
         // Get pagination info for the current page. Yield 15 records and show 4 pages in submenu.
         Pager = new Pager(data.Count(), p, 15, 4);
         // Assign a current slice of data to Items to display.
