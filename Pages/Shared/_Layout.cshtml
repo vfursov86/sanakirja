@@ -14,7 +14,8 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">sanakirja</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index"
+                    asp-route-sortOrder="@Context.Request.Query["sortOrder"]">sanakirja</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,15 +24,16 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Sanasto"
-                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Sanasto</a>
+                                asp-route-sortOrder="@(!string.IsNullOrEmpty(Context.Request.Query["sortOrder"]) ? Context.Request.Query["sortOrder"] : "finnish")">Sanasto</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Pikkusanat"
-                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Pikkusanat</a>
+                                asp-route-sortOrder="@(!string.IsNullOrEmpty(Context.Request.Query["sortOrder"]) ? Context.Request.Query["sortOrder"] : "finnish")">Pikkusanat</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Fraaseja"
-                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Fraaseja</a>
+                                asp-route-sortOrder="@(!string.IsNullOrEmpty(Context.Request.Query["sortOrder"]) ? Context.Request.Query["sortOrder"] : "finnish")">Fraaseja</a>
                         </li>
                     </ul>
 
@@ -65,7 +67,7 @@
 
     <script>
         function changeSortOrder() {
-            const selectedOption = document.getElementById("sortOptions").value;
+            const selectedOption = document.getElementById("sortOptions").value || "finnish"; // Default to 'finnish'
             const currentPage = window.location.pathname; // Get the current page URL
             const queryString = window.location.search; // Preserve existing query string
             const urlParams = new URLSearchParams(queryString);

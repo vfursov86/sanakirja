@@ -17,8 +17,11 @@ public class PikkusanatModel : PageModel
         _logger = logger;
     }
 
-    public void OnGet(string sortOrder = "finnish", int p = 1)
+    public void OnGet(string sortOrder = null, int p = 1)
     {
+        // Set default sortOrder if it's null or empty
+        sortOrder = string.IsNullOrEmpty(sortOrder) ? "finnish" : sortOrder;
+        
         // Select the correct dictionary based on sort order
         var data = sortOrder == "finnish" ? DataStore.pikkusanatData : DataStore.pikkusanatDataRussianSorted;
 
