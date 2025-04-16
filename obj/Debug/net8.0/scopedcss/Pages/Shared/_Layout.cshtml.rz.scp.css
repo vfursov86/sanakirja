@@ -26,8 +26,6 @@ a[b-expolnpeoa] {
 #sortOptions[b-expolnpeoa] {
   background-color: #007bff; /* Blue background for closed menu */
   color: white; /* White text for closed menu */
-  border: 1px solid #007bff; /* Blue border */
-  border-radius: 0.25rem; /* Rounded corners */
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   cursor: pointer;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sanakirja")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e5837726d899d12eb13a9c2088b01dd032919b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4daeae7407e082a695fe3a70a96bcecc2dbae1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("sanakirja")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sanakirja")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

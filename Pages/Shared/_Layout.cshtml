@@ -22,15 +22,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Sanasto">Sanasto</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Sanasto"
+                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Sanasto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Pikkusanat">Pikkusanat</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Pikkusanat"
+                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Pikkusanat</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Fraaseja">Fraaseja</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Fraaseja"
+                                asp-route-sortOrder="@Context.Request.Query["sortOrder"]">Fraaseja</a>
                         </li>
                     </ul>
+
                     <select id="sortOptions" onchange="changeSortOrder()">
                         @if (Context.Request.Query["sortOrder"] == "finnish")
                         {

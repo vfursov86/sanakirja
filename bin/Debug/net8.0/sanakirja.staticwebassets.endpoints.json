@@ -5005,51 +5005,6 @@
       ]
     },
     {
-      "Route": "sanakirja.mkyrl8zbzr.styles.css",
-      "AssetFile": "sanakirja.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2233"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mkyrl8zbzr"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
-        },
-        {
-          "Name": "label",
-          "Value": "sanakirja.styles.css"
-        }
-      ]
-    },
-    {
       "Route": "sanakirja.styles.css",
       "AssetFile": "sanakirja.styles.css",
       "Selectors": [],
@@ -5064,7 +5019,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2233"
+          "Value": "2136"
         },
         {
           "Name": "Content-Type",
@@ -5072,17 +5027,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
+        }
+      ]
+    },
+    {
+      "Route": "sanakirja.u89p1xeo1q.styles.css",
+      "AssetFile": "sanakirja.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u89p1xeo1q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
+        },
+        {
+          "Name": "label",
+          "Value": "sanakirja.styles.css"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jfjO9sWvqWqwYikj6/p3DpPPy2iWJqtAHnOQxERz1/Q=",
+  "Hash": "3plDvl2L6NJ+x0OJ0Luqvg6YoTeppppp8pb/k4e4MNo=",
   "Source": "sanakirja",
   "BasePath": "_content/sanakirja",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "mkyrl8zbzr",
-      "Integrity": "OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=",
+      "Fingerprint": "u89p1xeo1q",
+      "Integrity": "DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\sanakirja.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "mkyrl8zbzr",
-      "Integrity": "OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=",
+      "Fingerprint": "u89p1xeo1q",
+      "Integrity": "DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css"
@@ -6354,7 +6354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2233"
+          "Value": "2136"
         },
         {
           "Name": "Content-Type",
@@ -6362,11 +6362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6376,97 +6376,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
-        }
-      ]
-    },
-    {
-      "Route": "sanakirja.mkyrl8zbzr.bundle.scp.css",
-      "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2233"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mkyrl8zbzr"
-        },
-        {
-          "Name": "label",
-          "Value": "sanakirja.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
-        }
-      ]
-    },
-    {
-      "Route": "sanakirja.mkyrl8zbzr.styles.css",
-      "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\sanakirja.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2233"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mkyrl8zbzr"
-        },
-        {
-          "Name": "label",
-          "Value": "sanakirja.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
         }
       ]
     },
@@ -6481,7 +6391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2233"
+          "Value": "2136"
         },
         {
           "Name": "Content-Type",
@@ -6489,11 +6399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk=\""
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 19:04:47 GMT"
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6503,7 +6413,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OtPRa+VHNBWn1MEYr/a0BOuSRoSIe4j73UDLmktDJyk="
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
+        }
+      ]
+    },
+    {
+      "Route": "sanakirja.u89p1xeo1q.bundle.scp.css",
+      "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\sanakirja.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u89p1xeo1q"
+        },
+        {
+          "Name": "label",
+          "Value": "sanakirja.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
+        }
+      ]
+    },
+    {
+      "Route": "sanakirja.u89p1xeo1q.styles.css",
+      "AssetFile": "D:\\Code\\sanakirja\\obj\\Debug\\net8.0\\scopedcss\\bundle\\sanakirja.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 19:18:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u89p1xeo1q"
+        },
+        {
+          "Name": "label",
+          "Value": "sanakirja.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DqCMeZaPg/gz3AmGS6o0Ny0FC/ug1xKeWGGOYD1PuHY="
         }
       ]
     }
