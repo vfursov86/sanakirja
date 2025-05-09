@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3plDvl2L6NJ+x0OJ0Luqvg6YoTeppppp8pb/k4e4MNo=",
+  "Hash": "USAlZ3gAprv+04Zl8f9OSsWg9XxpJpj+6kGKjLkAQQs=",
   "Source": "sanakirja",
   "BasePath": "_content/sanakirja",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "Fingerprint": "wvav7u56ls",
+      "Integrity": "JEhBow+TR6T3RBz3ccdzT+DBE9oycJlFljHYO947q/Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
@@ -1424,51 +1424,6 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Code\\sanakirja\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 11 Nov 2024 15:43:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
       "Route": "favicon.ico",
       "AssetFile": "D:\\Code\\sanakirja\\wwwroot\\favicon.ico",
       "Selectors": [],
@@ -1479,7 +1434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "1605"
         },
         {
           "Name": "Content-Type",
@@ -1487,11 +1442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"JEhBow+TR6T3RBz3ccdzT+DBE9oycJlFljHYO947q/Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Nov 2024 15:43:57 GMT"
+          "Value": "Fri, 09 May 2025 10:48:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1501,7 +1456,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-JEhBow+TR6T3RBz3ccdzT+DBE9oycJlFljHYO947q/Y="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.wvav7u56ls.ico",
+      "AssetFile": "D:\\Code\\sanakirja\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JEhBow+TR6T3RBz3ccdzT+DBE9oycJlFljHYO947q/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 10:48:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wvav7u56ls"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JEhBow+TR6T3RBz3ccdzT+DBE9oycJlFljHYO947q/Y="
         }
       ]
     },
