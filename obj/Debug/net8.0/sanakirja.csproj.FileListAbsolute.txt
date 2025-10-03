@@ -57,3 +57,4 @@ D:\Code\sanakirja\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Code\sanakirja\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Code\sanakirja\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.sourcelink.json
