@@ -17,63 +17,66 @@ a {
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
 #sortOptions {
-  background-color: #007bff; /* Blue background for closed menu */
-  color: white; /* White text for closed menu */
-  padding: 0.375rem 0.75rem;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
   font-size: 1rem;
   cursor: pointer;
-  appearance: none; /* Remove default browser styling */
+  appearance: none;
+  /* Remove default browser styling */
 }
 
 /* Style all options with default white background and black text */
 #sortOptions option {
-  border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-size: 1rem;
+  padding: 6px 12px;
 }
 
 /* Highlight hovered option */
 #sortOptions option:hover {
   border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 6px 12px;
 }
 
 /* Ensure selected option stays styled correctly in collapsed view */
 #sortOptions:focus-visible {
   border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 6px 12px;
 }
 
 input[type="text"] {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  font-size: 1rem;
 }
 
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -96,10 +99,9 @@ button.accept-policy {
 }
 
 .btn-outline-primary {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-size: 1rem;
 }
