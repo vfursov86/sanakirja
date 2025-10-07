@@ -63,6 +63,15 @@ a[b-expolnpeoa] {
     padding: 6px 12px;
 }
 
+input[type="text"][b-expolnpeoa] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 6px 12px;
+}
+
 .border-top[b-expolnpeoa] {
   border-top: 1px solid #e5e5e5;
 }
@@ -87,16 +96,7 @@ button.accept-policy[b-expolnpeoa] {
   line-height: 60px;
 }
 
-.btn btn-outline-primary[b-expolnpeoa] {
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background-color: transparent;
-    font-size: 1rem;
-    padding: 6px 12px;
-}
-
-input[type="text"][b-expolnpeoa] {
+.btn-outline-primary[b-expolnpeoa] {
     border: none;
     outline: none;
     box-shadow: none;
