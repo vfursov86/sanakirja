@@ -1,0 +1,33 @@
+@page
+@model SearchModel
+@{
+    ViewData["Title"] = "Hakutulokset";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Model.Results.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Suomi</th>
+                <th>Venäjä</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var result in Model.Results)
+            {
+                <tr>
+                    <td>@result.Finnish</td>
+                    <td>@result.Russian</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else if (!string.IsNullOrWhiteSpace(Model.Query))
+{
+    <p>Ei tuloksia</p>
+}
