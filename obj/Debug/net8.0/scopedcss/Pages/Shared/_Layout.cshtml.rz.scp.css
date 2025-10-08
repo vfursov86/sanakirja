@@ -8,20 +8,20 @@ a.navbar-brand[b-expolnpeoa] {
 }
 
 a[b-expolnpeoa] {
-  color: #0077cc;
+  color:none !important;
 }
 
 .btn-primary[b-expolnpeoa] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color:none !important;
+  background-color: none !important;
+  border-color: none !important;
 }
 
 .nav-pills .nav-link.active[b-expolnpeoa],
 .nav-pills .show>.nav-link[b-expolnpeoa] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  color: none !important;
+  background-color: none !important;
+  border-color: none !important;
 }
 
 #sortOptions[b-expolnpeoa] {
