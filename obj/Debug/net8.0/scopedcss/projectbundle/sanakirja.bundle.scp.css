@@ -25,6 +25,62 @@ a[b-expolnpeoa] {
   border-color: none !important;
 }
 
+#sortOptions[b-expolnpeoa] {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  appearance: none;
+  /* Remove default browser styling */
+}
+
+/* Style all options with default white background and black text */
+#sortOptions option[b-expolnpeoa] {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-size: 1rem;
+  padding: 6px 12px;
+}
+
+/* Highlight hovered option */
+#sortOptions option:hover[b-expolnpeoa] {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color:  #ffffff;
+  font-size: 1rem;
+  padding: 6px 12px;
+}
+
+/* Ensure selected option stays styled correctly in collapsed view */
+#sortOptions:focus-visible[b-expolnpeoa] {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color:  #ffffff;
+  font-size: 1rem;
+  padding: 6px 12px;
+}
+
+input[type="text"][b-expolnpeoa] {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: #ffffff;
+  font-size: 1rem;
+}
+
+.btn-outline-primary[b-expolnpeoa] {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color:  #ffffff;
+  font-size: 1rem;
+}
 .border-top[b-expolnpeoa] {
   border-top: 1px solid #e5e5e5;
 }
