@@ -25,10 +25,10 @@ a {
 }
 
 #sortOptions {
-  border: none !important;
+  border: #ffffff !important;
   outline: none !important;
-  box-shadow: none !important;
-  background-color: #ffffff;
+  box-shadow: #ffffff !important;
+  background-color:#ffffff !important;
   font-size: 1rem;
   cursor: pointer;
   appearance: none;
@@ -37,27 +37,27 @@ a {
 
 /* Style all options with default white background and black text */
 #sortOptions option {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-  background-color: transparent !important;
+  border: #ffffff !important;
+  outline:#ffffff !important;
+  box-shadow: #ffffff !important;
+  background-color: #ffffff !important;
   font-size: 1rem;
   padding: 6px 12px;
 }
 
 /* Highlight hovered option */
 #sortOptions option:hover {
-  border: none;
+  border: #ffffff !important;
   outline: none;
   box-shadow: none;
-  background-color:  #ffffff;
+  background-color: #ffffff !important;
   font-size: 1rem;
   padding: 6px 12px;
 }
 
 /* Ensure selected option stays styled correctly in collapsed view */
 #sortOptions:focus-visible {
-  border: none;
+  border:  #ffffff;
   outline: none;
   box-shadow: none;
   background-color:  #ffffff;
@@ -66,26 +66,26 @@ a {
 }
 
 input[type="text"] {
-  border: none;
+  border: #ffffff !important;;
   outline: none;
   box-shadow: none;
-  background-color: #ffffff;
+  background-color: #ffffff !important;;
   font-size: 1rem;
 }
 
 .btn-outline-primary {
-  border: none !important;
+  border: #ffffff !important;
   outline: none !important;
   box-shadow: none !important;
   background-color:  #ffffff;
   font-size: 1rem;
 }
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ffffff;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ffffff;
 }
 
 .box-shadow {

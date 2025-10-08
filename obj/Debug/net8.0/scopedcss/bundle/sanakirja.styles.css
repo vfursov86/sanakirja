@@ -26,10 +26,10 @@ a[b-expolnpeoa] {
 }
 
 #sortOptions[b-expolnpeoa] {
-  border: none !important;
+  border: #ffffff !important;
   outline: none !important;
-  box-shadow: none !important;
-  background-color: #ffffff;
+  box-shadow: #ffffff !important;
+  background-color:#ffffff !important;
   font-size: 1rem;
   cursor: pointer;
   appearance: none;
@@ -38,27 +38,27 @@ a[b-expolnpeoa] {
 
 /* Style all options with default white background and black text */
 #sortOptions option[b-expolnpeoa] {
-  border: none !important;
-  outline: none !important;
-  box-shadow: none !important;
-  background-color: transparent !important;
+  border: #ffffff !important;
+  outline:#ffffff !important;
+  box-shadow: #ffffff !important;
+  background-color: #ffffff !important;
   font-size: 1rem;
   padding: 6px 12px;
 }
 
 /* Highlight hovered option */
 #sortOptions option:hover[b-expolnpeoa] {
-  border: none;
+  border: #ffffff !important;
   outline: none;
   box-shadow: none;
-  background-color:  #ffffff;
+  background-color: #ffffff !important;
   font-size: 1rem;
   padding: 6px 12px;
 }
 
 /* Ensure selected option stays styled correctly in collapsed view */
 #sortOptions:focus-visible[b-expolnpeoa] {
-  border: none;
+  border:  #ffffff;
   outline: none;
   box-shadow: none;
   background-color:  #ffffff;
@@ -67,26 +67,26 @@ a[b-expolnpeoa] {
 }
 
 input[type="text"][b-expolnpeoa] {
-  border: none;
+  border: #ffffff !important;;
   outline: none;
   box-shadow: none;
-  background-color: #ffffff;
+  background-color: #ffffff !important;;
   font-size: 1rem;
 }
 
 .btn-outline-primary[b-expolnpeoa] {
-  border: none !important;
+  border: #ffffff !important;
   outline: none !important;
   box-shadow: none !important;
   background-color:  #ffffff;
   font-size: 1rem;
 }
 .border-top[b-expolnpeoa] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ffffff;
 }
 
 .border-bottom[b-expolnpeoa] {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #ffffff;
 }
 
 .box-shadow[b-expolnpeoa] {
