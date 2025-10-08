@@ -38,23 +38,15 @@
                     </ul>
 
                     <form method="get" asp-page="/Search" class="d-flex ms-auto" style="max-width: 300px;">
-                        <input type="text" name="query" class="form-control me-2"
-                            placeholder="Hae / Поиск" />
+                        <input type="text" name="query" class="form-control me-2" placeholder="Hae / Поиск" />
                         <button type="submit" class="btn btn-outline-primary">🔍</button>
                     </form>
 
-                    <select id="sortOptions" onchange="changeSortOrder()">
-                        @if (Context.Request.Query["sortOrder"] == "finnish")
-                        {
-                            <option value="finnish" selected>Suomi - Venäjä</option>
-                            <option value="russian">Venäjä - Suomi</option>
-                        }
-                        else
-                        {
-                            <option value="finnish">Suomi - Venäjä</option>
-                            <option value="russian" selected>Venäjä - Suomi</option>
-                        }
-                    </select>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn" onclick="setSortOrder('finnish')">Suomi → Venäjä</button>
+                        <button type="button" class="btn" onclick="setSortOrder('russian')">Venäjä → Suomi</button>
+                    </div>
+
                 </div>
             </div>
         </nav>
