@@ -37,23 +37,15 @@
                         </li>
                     </ul>
 
-                    <form method="get" asp-page="/Search" class="d-flex ms-auto" style="max-width: 300px;">
-                        <input type="text" name="query" class="form-control me-2" placeholder="Hae / Поиск" />
-                        <button type="submit" class="btn btn-outline-primary">🔍</button>
+                    <form method="get" asp-page="/Search" class="search-form">
+                        <input type="text" name="query" class="search-input" placeholder="Hae" />
+                        <button type="submit" class="search-button">⌕</button>
                     </form>
 
-                    <select id="sortOptions" onchange="changeSortOrder()">
-                        @if (Context.Request.Query["sortOrder"] == "finnish")
-                        {
-                            <option value="finnish" selected>Suomi - Venäjä</option>
-                            <option value="russian">Venäjä - Suomi</option>
-                        }
-                        else
-                        {
-                            <option value="finnish">Suomi - Venäjä</option>
-                            <option value="russian" selected>Venäjä - Suomi</option>
-                        }
-                    </select>
+                    <div class="language-toggle">
+                            <button onclick="changeSortOrder('finnish')" class="lang-btn">Suomi → Venäjä</button>
+                            <button onclick="changeSortOrder('russian')" class="lang-btn">Venäjä → Suomi</button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -71,19 +63,16 @@
     </footer>
 
     <script>
-        function changeSortOrder() {
-            const selectedOption = document.getElementById("sortOptions").value || "finnish"; // Default to 'finnish'
-            const currentPage = window.location.pathname; // Get the current page URL
-            const queryString = window.location.search; // Preserve existing query string
+        function changeSortOrder(order) {
+            const currentPage = window.location.pathname;
+            const queryString = window.location.search;
             const urlParams = new URLSearchParams(queryString);
 
-            // Update sortOrder query parameter
-            urlParams.set('sortOrder', selectedOption);
-
-            // Redirect to updated URL
+            urlParams.set('sortOrder', order);
             window.location.href = `${currentPage}?${urlParams.toString()}`;
         }
     </script>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

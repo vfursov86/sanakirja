@@ -25,3 +25,56 @@ button.accept-policy[b-expolnpeoa] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.search-form[b-expolnpeoa] {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    max-width: 300px;
+}
+
+.search-input[b-expolnpeoa],
+.search-button[b-expolnpeoa],
+.lang-btn[b-expolnpeoa] {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    font-size: 1rem;
+    padding: 6px 12px;
+    color: inherit;
+    appearance: none;
+}
+
+.search-input[b-expolnpeoa]::placeholder {
+    color: #888;
+}
+
+.search-button[b-expolnpeoa] {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.language-toggle[b-expolnpeoa] {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+}
+
+.lang-btn[b-expolnpeoa] {
+    font-weight: normal !important;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+.search-input:hover[b-expolnpeoa],
+.search-button:hover[b-expolnpeoa],
+.lang-btn:hover[b-expolnpeoa] {
+    background-color: rgba(0, 0, 0, 0.03);
+}
