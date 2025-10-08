@@ -33,6 +33,7 @@ D:\Code\sanakirja\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Code\sanakirja\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Code\sanakirja\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.csproj.AssemblyReference.cache
+D:\Code\sanakirja\obj\Debug\net8.0\rpswa.dswa.cache.json
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.AssemblyInfoInputs.cache
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.AssemblyInfo.cs
@@ -40,10 +41,15 @@ D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.csproj.CoreCompileInputs.cache
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.MvcApplicationPartsAssemblyInfo.cache
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.RazorAssemblyInfo.cache
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.RazorAssemblyInfo.cs
+D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.sourcelink.json
+D:\Code\sanakirja\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Code\sanakirja\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Code\sanakirja\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Code\sanakirja\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\Code\sanakirja\obj\Debug\net8.0\scopedcss\bundle\sanakirja.styles.css
 D:\Code\sanakirja\obj\Debug\net8.0\scopedcss\projectbundle\sanakirja.bundle.scp.css
 D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.json
+D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.development.json
 D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.csproj.Up2Date
@@ -52,9 +58,3 @@ D:\Code\sanakirja\obj\Debug\net8.0\refint\sanakirja.dll
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.pdb
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.genruntimeconfig.cache
 D:\Code\sanakirja\obj\Debug\net8.0\ref\sanakirja.dll
-D:\Code\sanakirja\obj\Debug\net8.0\rpswa.dswa.cache.json
-D:\Code\sanakirja\obj\Debug\net8.0\rjimswa.dswa.cache.json
-D:\Code\sanakirja\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-D:\Code\sanakirja\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-D:\Code\sanakirja\obj\Debug\net8.0\staticwebassets.build.json.cache
-D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.sourcelink.json
