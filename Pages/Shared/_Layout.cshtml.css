@@ -27,54 +27,55 @@ button.accept-policy {
 }
 
 .search-form {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    max-width: 300px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  max-width: 300px;
 }
 
 .search-input,
 .search-button,
 .lang-btn {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    background-color: transparent !important;
-    font-size: 1rem;
-    padding: 6px 12px;
-    color: inherit;
-    appearance: none;
+  all: unset;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  font-size: 1rem;
+  padding: 6px 12px;
+  color: inherit;
+  appearance: none;
 }
 
 .search-input::placeholder {
-    color: #888;
+  color: #888;
 }
 
 .search-button {
-    cursor: pointer;
-    font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .language-toggle {
-    display: flex;
-    gap: 0.5rem;
-    margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
 }
 
 .lang-btn {
-    font-weight: normal !important;
-    font-family: inherit;
-    font-size: 1rem;
-    padding: 6px 12px;
-    border: none;
-    background: transparent;
-    color: inherit;
-    cursor: pointer;
+  font-weight: normal !important;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 6px 12px;
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
 }
 
 
 .search-input:hover,
 .search-button:hover,
 .lang-btn:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(0, 0, 0, 0.03);
 }
