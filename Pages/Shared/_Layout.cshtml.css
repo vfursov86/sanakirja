@@ -43,7 +43,9 @@ button.accept-policy {
     font-size: 1rem;
     padding: 6px 12px;
     color: inherit;
-    appearance: none;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
 }
 
 .search-input::placeholder {
@@ -77,23 +79,4 @@ button.accept-policy {
 .search-button:hover,
 .lang-btn:hover {
     background-color: rgba(0, 0, 0, 0.03);
-}
-
-.table td,
-.table th {
-    border: none !important;
-    box-shadow: none !important;
-    background-color: transparent !important;
-}
-
-.table {
-    border-collapse: collapse !important;
-}
-
-.table thead {
-    border-bottom: none !important;
-}
-
-.table-striped > tbody > tr:nth-of-type(odd) {
-    background-color: transparent !important;
 }
