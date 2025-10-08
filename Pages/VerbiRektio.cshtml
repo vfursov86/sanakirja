@@ -1,0 +1,56 @@
+@page
+@model VerbiRektioModel
+@{
+    ViewData["Title"] = "Verbi Rektio";
+}
+<h1>@ViewData["Title"]</h1>
+
+<!-- items being paged -->
+<table class="table">
+    <tbody>
+        @foreach (KeyValuePair<string, string> kvp in Model.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Key)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => kvp.Value)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- pager -->
+@if (Model.Pager.Pages.Any())
+{
+    <nav class="table-responsive">
+        <ul class="pagination justify-content-center d-flex flex-wrap">
+            @if (Model.Pager.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/VerbiRektio?p=1">Ensimmäinen</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="/VerbiRektio?p=@(Model.Pager.CurrentPage - 1)">Edellinen</a>
+                </li>
+            }
+            @foreach (var p in Model.Pager.Pages)
+            {
+                <li class="page-item @(p == Model.Pager.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="/VerbiRektio?p=@p">@p</a>
+                </li>
+            }
+            @if (Model.Pager.CurrentPage < Model.Pager.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="/VerbiRektio?p=@(Model.Pager.CurrentPage + 1)">Seuraava</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="/VerbiRektio?p=@Model.Pager.TotalPages">Viimeinen</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

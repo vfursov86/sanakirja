@@ -35,6 +35,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Fraaseja"
                                 asp-route-sortOrder="@(!string.IsNullOrEmpty(Context.Request.Query["sortOrder"]) ? Context.Request.Query["sortOrder"] : "finnish")">Fraaseja</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/VerbiRektio">Verbi Rektio</a>
+                        </li>
+
                     </ul>
 
                     <form method="get" asp-page="/Search" class="search-form">
@@ -43,8 +47,8 @@
                     </form>
 
                     <div class="language-toggle">
-                            <button onclick="changeSortOrder('finnish')" class="lang-btn">Suomi → Venäjä</button>
-                            <button onclick="changeSortOrder('russian')" class="lang-btn">Venäjä → Suomi</button>
+                        <button onclick="changeSortOrder('finnish')" class="lang-btn">Suomi → Venäjä</button>
+                        <button onclick="changeSortOrder('russian')" class="lang-btn">Venäjä → Suomi</button>
                     </div>
                 </div>
             </div>

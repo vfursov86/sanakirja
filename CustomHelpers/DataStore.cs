@@ -15,6 +15,10 @@ public static class DataStore
     public static SortedDictionary<string, string> pikkusanatDataRussianSorted = new();
     public static SortedDictionary<string, string> fraasejaDataRussianSorted = new();
 
+    // Verbi Rektio dictionary
+    public static SortedDictionary<string, string> verbirektioData = new();
+
+
     public static void LoadData()
     {
         using (var connection = new SqliteConnection("Data Source=sanakirjadata.db"))
@@ -25,6 +29,11 @@ public static class DataStore
             LoadTableData(connection, "finnruswords", sanastoData, sanastoDataRussianSorted);
             LoadTableData(connection, "pikkusanat", pikkusanatData, pikkusanatDataRussianSorted);
             LoadTableData(connection, "fraaseja", fraasejaData, fraasejaDataRussianSorted);
+
+            // Load verbirektio examples
+            LoadVerbiRektioData(connection);
+
+
         }
     }
 
@@ -44,4 +53,20 @@ public static class DataStore
             }
         }
     }
+
+    private static void LoadVerbiRektioData(SqliteConnection connection)
+    {
+        var command = connection.CreateCommand();
+        command.CommandText = "SELECT verbirektioitem, usageexample FROM verbirektio";
+        using var reader = command.ExecuteReader();
+        while (reader.Read())
+        {
+            var item = reader.GetString(0);
+            var example = reader.GetString(1);
+
+            // SortedDictionary will auto-sort by item
+            verbirektioData.Add(item, example);
+        }
+    }
+
 }
