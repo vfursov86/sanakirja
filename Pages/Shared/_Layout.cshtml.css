@@ -43,9 +43,7 @@ button.accept-policy {
     font-size: 1rem;
     padding: 6px 12px;
     color: inherit;
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    -moz-appearance: none !important;
+    appearance: none;
 }
 
 .search-input::placeholder {

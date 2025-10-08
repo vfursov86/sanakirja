@@ -78,22 +78,3 @@ button.accept-policy[b-expolnpeoa] {
 .lang-btn:hover[b-expolnpeoa] {
     background-color: rgba(0, 0, 0, 0.03);
 }
-
-.table td[b-expolnpeoa],
-.table th[b-expolnpeoa] {
-    border: none !important;
-    box-shadow: none !important;
-    background-color: transparent !important;
-}
-
-.table[b-expolnpeoa] {
-    border-collapse: collapse !important;
-}
-
-.table thead[b-expolnpeoa] {
-    border-bottom: none !important;
-}
-
-.table-striped > tbody > tr:nth-of-type(odd)[b-expolnpeoa] {
-    background-color: transparent !important;
-}
