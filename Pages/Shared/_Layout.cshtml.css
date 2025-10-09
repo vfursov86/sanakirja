@@ -36,7 +36,10 @@ button.accept-policy {
 .search-input,
 .search-button,
 .lang-btn {
-  border-width: 0 !important;
+  border-bottom-width: 0 !important;
+  border-top-width: 0 !important;
+  border-right-width: 0 !important;
+  border-left-width: 0 !important;
   border-style: none !important;
   border: none !important;
   outline: none !important;

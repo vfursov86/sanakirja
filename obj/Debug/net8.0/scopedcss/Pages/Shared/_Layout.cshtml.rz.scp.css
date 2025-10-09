@@ -36,7 +36,8 @@ button.accept-policy[b-expolnpeoa] {
 .search-input[b-expolnpeoa],
 .search-button[b-expolnpeoa],
 .lang-btn[b-expolnpeoa] {
-  all: unset;
+  border-width: 0 !important;
+  border-style: none !important;
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
