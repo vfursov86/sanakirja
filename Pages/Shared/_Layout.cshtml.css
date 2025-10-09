@@ -80,15 +80,3 @@ button.accept-policy {
 .lang-btn:hover {
   background-color: rgba(0, 0, 0, 0.03);
 }
-
-input,
-button,
-select,
-textarea {
-    all: unset;
-    font: inherit;
-    color: inherit;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-}
