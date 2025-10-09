@@ -36,10 +36,7 @@ button.accept-policy {
 .search-input,
 .search-button,
 .lang-btn {
-  border-bottom-width: 0 !important;
-  border-top-width: 0 !important;
-  border-right-width: 0 !important;
-  border-left-width: 0 !important;
+  border-width: 0 !important;
   border-style: none !important;
   border: none !important;
   outline: none !important;
@@ -82,4 +79,16 @@ button.accept-policy {
 .search-button:hover,
 .lang-btn:hover {
   background-color: rgba(0, 0, 0, 0.03);
+}
+
+input,
+button,
+select,
+textarea {
+    all: unset;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    box-shadow: none;
 }
