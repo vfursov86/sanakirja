@@ -81,15 +81,3 @@ button.accept-policy[b-expolnpeoa] {
 .lang-btn:hover[b-expolnpeoa] {
   background-color: rgba(0, 0, 0, 0.03);
 }
-
-input[b-expolnpeoa],
-button[b-expolnpeoa],
-select[b-expolnpeoa],
-textarea[b-expolnpeoa] {
-    all: unset;
-    font: inherit;
-    color: inherit;
-    background: transparent;
-    border: none;
-    box-shadow: none;
-}
