@@ -58,3 +58,4 @@ D:\Code\sanakirja\obj\Debug\net8.0\refint\sanakirja.dll
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.pdb
 D:\Code\sanakirja\obj\Debug\net8.0\sanakirja.genruntimeconfig.cache
 D:\Code\sanakirja\obj\Debug\net8.0\ref\sanakirja.dll
+D:\Code\sanakirja\obj\Debug\net8.0\swae.build.ex.cache
